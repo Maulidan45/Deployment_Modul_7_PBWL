@@ -16,7 +16,7 @@
       }
     },
     {
-      "src": "/(favicon\\.ico|robots\\.txt|.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "src": "/(favicon\\.ico|robots\\.txt|build/.*|.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
       "dest": "/$1",
       "headers": {
         "cache-control": "public, max-age=86400"
